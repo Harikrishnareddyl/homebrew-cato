@@ -7,18 +7,18 @@ class Cato < Formula
   on_macos do
     on_arm do
       url "https://github.com/Harikrishnareddyl/cato/releases/download/v0.2.3/cato-macos-arm64-v0.2.3.tar.gz"
-      sha256 "36fbb74b84c407e71ca4c60d91be246464e1713af23f10565b486b72cef0e7f2"
+      sha256 "86fdaa355dcf170c8e20d6b6d32b2e9575e3d299326a70d8972a7deb3f80d522"
     end
     on_intel do
       url "https://github.com/Harikrishnareddyl/cato/releases/download/v0.2.3/cato-macos-x64-v0.2.3.tar.gz"
-      sha256 "d63d5cf8821031a342ab570379fccd313c83a415886ddcbe2f57d10bf55ab657"
+      sha256 "9de8a7dd12aece1c9a469418072da1a38d900e94d81031fb6123b1f3e4bcbcbf"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/Harikrishnareddyl/cato/releases/download/v0.2.3/cato-linux-x64-v0.2.3.tar.gz"
-      sha256 "cf25b059bec130fd0198d73cabaaf76d1965122e898ebda7de7921eb48afa3ea"
+      sha256 "a93eab4961e99e81eb6092440619d70e07f673df246d6de8248ca9f88b338f32"
     end
   end
 
