@@ -1,24 +1,24 @@
 class Cato < Formula
   desc "Universal AI agent safety layer — protect files and commands with configurable rules"
   homepage "https://github.com/Harikrishnareddyl/cato"
-  version "0.3.0"
+  version "0.3.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Harikrishnareddyl/cato/releases/download/v0.3.0/cato-macos-arm64-v0.3.0.tar.gz"
-      sha256 "1724d8ed61c3d7a591f25d148ed8b8c55d813af2e432451608c81ea06f9b6b71"
+      url "https://github.com/Harikrishnareddyl/cato/releases/download/v0.3.1/cato-macos-arm64-v0.3.1.tar.gz"
+      sha256 "e6098a4670ae89ffc561be40e056775afb4a97330edd93b71fa29380719bd8c5"
     end
     on_intel do
-      url "https://github.com/Harikrishnareddyl/cato/releases/download/v0.3.0/cato-macos-x64-v0.3.0.tar.gz"
-      sha256 "9020cac2e902d5906bf8ec8ceaafdf2be74b742133010a2a36856a82cbcb7d12"
+      url "https://github.com/Harikrishnareddyl/cato/releases/download/v0.3.1/cato-macos-x64-v0.3.1.tar.gz"
+      sha256 "89618a8a103d749d1ec78286e37af999e364344d9ea1c7e23ef904a526100a82"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Harikrishnareddyl/cato/releases/download/v0.3.0/cato-linux-x64-v0.3.0.tar.gz"
-      sha256 "4cfb8aa9c7b19273e4289b9a7fb933fd95aa866895eedd7446261f20b1b0e650"
+      url "https://github.com/Harikrishnareddyl/cato/releases/download/v0.3.1/cato-linux-x64-v0.3.1.tar.gz"
+      sha256 "cf0260abf74a1c9c8e9a02abb65cfd383e432369deb5c4aed646a3183aee10bb"
     end
   end
 
