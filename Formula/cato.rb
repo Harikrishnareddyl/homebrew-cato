@@ -1,24 +1,24 @@
 class Cato < Formula
   desc "Portable sandbox for secure command execution"
   homepage "https://github.com/Harikrishnareddyl/cato"
-  version "0.4.0"
+  version "0.4.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Harikrishnareddyl/cato/releases/download/v0.4.0/cato-macos-arm64-v0.4.0.tar.gz"
-      sha256 "500783c0714684a9042e721b9a3fc0038f0986a849c4f220321f76bd43fc2c34"
+      url "https://github.com/Harikrishnareddyl/cato/releases/download/v0.4.1/cato-macos-arm64-v0.4.1.tar.gz"
+      sha256 "63c324d9faaf822f01a63fa5c39483942926b07b9944816d0776465e6ba6461e"
     end
     on_intel do
-      url "https://github.com/Harikrishnareddyl/cato/releases/download/v0.4.0/cato-macos-x64-v0.4.0.tar.gz"
-      sha256 "9d3aef9988f96bdfc79777764494906aa02ef938b9145b376d2553b2df8eaafd"
+      url "https://github.com/Harikrishnareddyl/cato/releases/download/v0.4.1/cato-macos-x64-v0.4.1.tar.gz"
+      sha256 "e308be9a9c39d72db4463cf3887e13b3621868368f5617beb04078ee1969df27"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Harikrishnareddyl/cato/releases/download/v0.4.0/cato-linux-x64-v0.4.0.tar.gz"
-      sha256 "a52ea9f9d6e0144c32c8d11d2b59f1d7ef04a071a49b0d1beae145dce116cd92"
+      url "https://github.com/Harikrishnareddyl/cato/releases/download/v0.4.1/cato-linux-x64-v0.4.1.tar.gz"
+      sha256 "6dca58559e95cda0f7cc95bab1f8360e5d8b325a678288324d419ee2a7dcbdad"
     end
   end
 
